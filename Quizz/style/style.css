@@ -1,0 +1,74 @@
+/*---GENERAL PROPERTIES---*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#title, #question, #player-information,#card h5, #card h2{
+    font-family: Rubik Scribble;
+}
+
+/*--------QUIZZ CARDS PROPERTIES--------*/
+.imagen{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    filter: blur(1px);
+}
+#section-game{
+    height: 100vh;
+}
+#card{
+    width: 25%;
+    height: 70%;
+}
+.option-button{
+    cursor: pointer;
+}
+.option-button:hover{
+    background-color: #95715A;
+}
+#card h5,#card h2{
+  margin: auto;
+  font-size: 500%;
+}
+
+/*------MENU CARDS PROPERTIES---------*/
+.card-prueba{
+    font-family: monospace;
+    transition: all 0.2s;
+    box-shadow: 0px 0px 5px -1.5px #000;
+}
+.card-prueba::before {
+  content: '';
+  width: 99%;
+  height: 99%;
+  background: #cf7d61;
+  position: absolute;
+  z-index: -1;
+  top: 1px;
+  left: 1px;
+  border-radius: 25px;
+  transition: all 0.3s;
+} 
+.card__icon {
+  transform: rotate(-45deg);
+  transition: all 0.3s;
+}
+.card__icon circle, polyline, line {
+  stroke: #080000;
+} 
+.card-prueba:hover .card__icon {
+  transform: rotate(0);
+}
+.card-prueba:hover::before {
+  transform: rotate(10deg);
+  box-shadow: 0px 0px 20px -5px #000;
+}
+
