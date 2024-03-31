@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
 
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 a{
     text-decoration: none;
@@ -19,7 +19,6 @@ a{
     width: 100%;
     height: auto;
     border-radius: 10px;
-    filter: blur(1px);
 }
 #section-game{
     height: 100vh;

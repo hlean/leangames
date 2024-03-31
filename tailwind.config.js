@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}","./Quizz/src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}","./Quizz/src/**/*.{html,js}","./ClickIt/src/**/*.{html,js}"],
   theme: {
     extend: {
       colors:{

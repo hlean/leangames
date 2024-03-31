@@ -24,7 +24,7 @@ export class UI{
             
             const button = document.createElement("button");
             button.innerHTML = options[i];
-            button.className = "option-button rounded-xl text-center bg-brand-100 text-xl";
+            button.className = "option-button rounded-xl text-center bg-brand-100";
             button.addEventListener("click", () => callback(options[i]));
 
             optionsContent.append(button);
